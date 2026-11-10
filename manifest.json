@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "UMT Captcha Autofill",
+  "version": "1.0.0",
+  "description": "Reads the captcha from the UMT student portal login page and fills the code field for you.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "umt-captcha-autofill@bakhoo.dev",
+      "strict_min_version": "115.0"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://online.umt.edu.pk/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    }
+  ]
+}
