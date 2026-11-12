@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
   "name": "UMT Captcha Autofill",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Reads the captcha from the UMT student portal login page and fills the code field for you.",
   "browser_specific_settings": {
     "gecko": {
-      "id": "umt-captcha-autofill@bakhoo.dev",
+      "id": "umt-captcha@bakhoo.dev",
       "strict_min_version": "140.0",
       "data_collection_permissions": {
         "required": ["none"]
